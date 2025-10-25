@@ -15,3 +15,5 @@ Place your video to the same dir as your file.And just run the program and do th
 
 It doesn’t use a real AI or deep learning mode LMAO just opencv and color detection.
 
+
+<img width="699" height="495" alt="image" src="https://github.com/user-attachments/assets/543a9bd1-cfa2-424d-9532-76ac4b377f7e" />
