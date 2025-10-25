@@ -8,14 +8,14 @@ video = cv2.VideoCapture('fireworks.mp4')
 
 fps = int(video.get(cv2.CAP_PROP_FPS))
 width, height = int(video.get(3)), int(video.get(4))
-#----video writer ------
+
 output = cv2.VideoWriter('final.mp4', cv2.VideoWriter_fourcc(*'mp4v'), fps, (width, height))
 
 
 greetings = [
     "Happy Diwali", "Eid Mubarak", "Merry Christmas", 
     "Happy Holi", "Ramadan Mubarak", "Happy Birthday", "I love him"
-]
+] #some random ah things you wanna display (the text is small asf so put any random shi)
 
 frame_count = 0  #frame count
 
@@ -23,7 +23,7 @@ while True:
     ret, frame = video.read()
     if not ret:
         break
-#for the glow effect
+
     blurred = cv2.GaussianBlur(frame, (15, 15), 0)
 
 
@@ -60,4 +60,4 @@ while True:
 video.release()
 output.release()
 cv2.destroyAllWindows()
-print("final video saved <3")
+print("done")
