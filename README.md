@@ -1,5 +1,5 @@
-### Fireworks Text Visualizer
-##Working:
+## Fireworks Text Visualizer
+### Working:
 It detects brighter pixels usinh numpy and displayes random celebration slogans dynamically and highlights the detected part with rectangles.It comnverts each frame to 
 "HSV Color space" to detect colors.and write that stufff and then save it in mp4 version.But you cant run this big ahh video on you 55gb phone so you gotta re-encode it using ffmpeg.
 ```bash
