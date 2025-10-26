@@ -9,8 +9,12 @@ If you're my wifey Ayesha, here are the steps awe ,I love you babe<3
 OFC you'd have python installed already ,run this shit in your terminal
 
 ```bash
-pip install opencv-python numpy
+pip install opencv
 ```
+```bash
+pip install numpy
+```
+
 Place your video to the same dir as your file.And just run the program and do the re-encode shii I've mentioned above.
 
 It doesn’t use a real AI or deep learning mode LMAO just opencv and color detection.
