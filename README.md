@@ -5,7 +5,7 @@ It detects brighter pixels using numpy and displays random celebration slogans d
 ```bash
 ffmpeg -i final.mp4 -vcodec libx264 -crf 18 -preset slow -pix_fmt yuv420p fixed.mp4
 ```
-If you're my wifey Ayesha, here are the steps awe ,I love you babe<3
+If you're my wifey Ayesha, here are the steps 
 OFC you'd have python installed already ,run this shit in your terminal
 
 ```bash
